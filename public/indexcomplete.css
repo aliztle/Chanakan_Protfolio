@@ -103,3 +103,73 @@ body{
 .education .info-edu .fa-building:hover{
     color: rgb(99, 89, 240);
 }
+
+.u-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.skills{
+    display: flexs;
+    flex-direction: column;
+    align-self: center;
+}
+
+.skill{
+    margin: 1em 0;
+    position: relative;
+    width: 22.5em;
+}
+
+.skill_type{
+    color: white;
+    font-weight: 300;
+    font-size: .8em;
+    letter-spacing: .145em;
+    text-transform: uppercase;
+    width: 5em;
+}
+
+.skill_outer-bar,
+.skill_inner-bar{
+    height: .75em;
+}
+
+.skill_outer-bar{
+    margin-top: 1em;
+    background: #333;
+}
+
+.skill_inner-bar{
+    animation: fillBar 1s forwards;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+}
+
+.skill_inner-bar--100{
+    width: 100%;
+    background: #eee;
+}
+
+.skill_inner-bar--90{
+    width: 90%;
+    background: #eee;
+}
+
+.skill_inner-bar--80{
+    width: 80%;
+    background: #eee;
+}
+
+.skill_inner-bar--70{
+    width: 70%;
+    background: #eee;
+}
+
+@keyframes fillBar{
+    to {
+        transform: scaleX(1);
+    }
+}
