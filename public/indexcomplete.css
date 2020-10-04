@@ -150,12 +150,12 @@ body{
 }
 
 .skill_inner-bar--100{
-    width: 100%;
+    width: 90%;
     background: #eee;
 }
 
 .skill_inner-bar--90{
-    width: 90%;
+    width: 50%;
     background: #eee;
 }
 
@@ -165,7 +165,7 @@ body{
 }
 
 .skill_inner-bar--70{
-    width: 70%;
+    width: 30%;
     background: #eee;
 }
 
