@@ -87,6 +87,5 @@ body{
 
 .education .info-edu .fa-school,
 .education .info-edu .fa-graduation-cap{
-    width: 100px;
-    height: 100px;
+    font-size: 20px;
 }
