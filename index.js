@@ -12,7 +12,7 @@ app.engine('hbs',hbs({extname:'hbs'}));
 app.set('view engine', 'hbs');
 
 //router
-app.use('/profile', router);
+app.use('/', router);
 
 app.listen(
     PORT,
