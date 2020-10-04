@@ -34,3 +34,6 @@ body{
     display: flex;
 }
 
+.box-home img{
+    width: 300px;
+}
