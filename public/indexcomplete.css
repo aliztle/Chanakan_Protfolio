@@ -71,11 +71,14 @@ body{
 /*education page*/
 .education{
     display: flex;
-    margin-left: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
 }
 
 .education .info-edu{
     width: 300px;
     background: white;
     border-radius: 7px;
+    margin-left: 5%;
+    align-items: center;
 }
