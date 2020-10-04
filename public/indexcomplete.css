@@ -104,6 +104,6 @@ body{
     color: rgb(99, 89, 240);
 }
 
-.education .info-edu .p-edu{
-    margin-top: 2%;
+#deffer{
+    filter: grayscale(100);
 }
