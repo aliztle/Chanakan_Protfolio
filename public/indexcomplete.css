@@ -32,7 +32,7 @@ body{
 
 .box-home {
     display: flex;
-    margin-left: 19%;
+    margin-left: 17%;
 }
 
 .box-home img{
@@ -42,4 +42,5 @@ body{
 
 .box-home .text-home{
     color: white;
+    margin-top: 10%;
 }
