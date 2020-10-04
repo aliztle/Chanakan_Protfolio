@@ -10,16 +10,16 @@ header{
 
 header img{
     width: 100px;
-    margin-left: 10px;
+    margin-left: 15%;
 }
 
 header .navbar-icon{
-    margin-top: 1%;
+    margin-top: 4%;
     margin-left: 50%;
     display: flex;
 }
 
 header .navbar-icon a{
     margin-left: 10%;
-    font-size: 14px;
+    font-size: 16px;
 }
