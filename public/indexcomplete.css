@@ -71,6 +71,7 @@ body{
 /*education page*/
 .education{
     display: flex;
+    margin-left: 50%;
 }
 
 .education .info-edu{
