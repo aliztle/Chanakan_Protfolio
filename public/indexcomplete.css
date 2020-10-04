@@ -22,4 +22,6 @@ header .navbar-icon{
 header .navbar-icon a{
     margin-left: 10%;
     font-size: 16px;
+    text-decoration: none;
+    color: black;
 }
