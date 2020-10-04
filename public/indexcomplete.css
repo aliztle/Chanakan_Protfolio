@@ -59,4 +59,11 @@ body{
     text-decoration: none;
     padding: 10px;
     border: 1px solid white;
+    width: 200px;
+    transition: 1s;
+}
+
+.box-home .text-home .seemore:hover{
+    background-color: white;
+    color:  rgb(32, 32, 32);
 }
