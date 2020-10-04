@@ -32,10 +32,11 @@ body{
 
 .box-home {
     display: flex;
+    margin-left: 50%;
 }
 
 .box-home img{
-    width: 300px;
+    width: 500px;
 }
 
 .box-home .text-home{
