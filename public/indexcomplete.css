@@ -89,7 +89,7 @@ body{
 .education .info-edu .fa-graduation-cap,
 .education .info-edu .fa-building{
     font-size: 50px;
-    transition: color .5s;
+    transition: color .4s;
 }
 
 .education .info-edu .fa-school:hover{
@@ -102,4 +102,8 @@ body{
 
 .education .info-edu .fa-building:hover{
     color: rgb(99, 89, 240);
+}
+
+.education .info-edu .p-edu{
+    margin-top: 2%;
 }
