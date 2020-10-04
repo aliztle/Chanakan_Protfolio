@@ -30,6 +30,7 @@ body{
     background-color: rgb(32, 32, 32);
 }
 
+/*index page*/
 .box-home {
     display: flex;
     margin-left: 15%;
@@ -66,4 +67,10 @@ body{
 .box-home .text-home .seemore:hover{
     background-color: white;
     color:  rgb(32, 32, 32);
+}
+/*education page*/
+.education .info-edu{
+    width: 300px;
+    background: white;
+    border-radius: 7px;
 }
