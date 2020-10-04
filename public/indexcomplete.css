@@ -84,6 +84,7 @@ body{
     padding: 20px;
 }
 
-.education .info-edu i{
+.education .info-edu .fa-school,
+.education .info-edu .fa-graduation-cap{
     width: 100px;
 }
