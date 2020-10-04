@@ -83,3 +83,7 @@ body{
     text-align: center;
     padding: 20px;
 }
+
+.education .info-edu i{
+    width: 100px;
+}
