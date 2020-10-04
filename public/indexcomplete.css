@@ -82,9 +82,11 @@ body{
     margin-left: 5%;
     text-align: center;
     padding: 20px;
+    box-shadow: rgba(8, 8, 8, 0.411);
 }
 
 .education .info-edu .fa-school,
 .education .info-edu .fa-graduation-cap{
     width: 100px;
+    height: 100px;
 }
