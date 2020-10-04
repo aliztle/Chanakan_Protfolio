@@ -37,3 +37,7 @@ body{
 .box-home img{
     width: 300px;
 }
+
+.box-home .text-home{
+    color: white;
+}
