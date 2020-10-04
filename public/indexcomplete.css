@@ -69,6 +69,10 @@ body{
     color:  rgb(32, 32, 32);
 }
 /*education page*/
+.education{
+    display: flex;
+}
+
 .education .info-edu{
     width: 300px;
     background: white;
