@@ -54,7 +54,7 @@ body{
     color: rgb(224, 224, 224);
 }
 
-.box-home .text-home .seemore a{
+.box-home .text-home .seemore{
     color: white;
     text-decoration: none;
     padding: 10px;
