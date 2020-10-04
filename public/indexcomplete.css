@@ -59,8 +59,8 @@ body{
     text-decoration: none;
     padding: 10px;
     border: 1px solid white;
-    width: 200px;
-    transition: 1s;
+    width: 250px;
+    transition: .3s;
 }
 
 .box-home .text-home .seemore:hover{
