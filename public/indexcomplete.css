@@ -89,3 +89,7 @@ body{
 .education .info-edu .fa-graduation-cap{
     font-size: 50px;
 }
+
+.education .info-edu .fa-school:hover{
+    color: red;
+}
