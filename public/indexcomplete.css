@@ -5,8 +5,14 @@
 
 header{
     display: flex;
+    margin-top: 1%;
 }
 
 header img{
     width: 150px;
+    margin-left: 10px;
+}
+
+header .navbar-icon{
+    margin-left: 65%;
 }
