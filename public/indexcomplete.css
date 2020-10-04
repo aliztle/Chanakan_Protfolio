@@ -43,6 +43,7 @@ body{
 .box-home .text-home{
     color: white;
     margin-top: 18%;
+    margin-left: 5%;
 }
 
 .box-home .text-home .name-home{
@@ -51,4 +52,11 @@ body{
 
 .box-home .text-home .welcome-text{
     color: rgb(224, 224, 224);
+}
+
+.box-home .text-home .seemore a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
 }
