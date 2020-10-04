@@ -103,7 +103,3 @@ body{
 .education .info-edu .fa-building:hover{
     color: rgb(99, 89, 240);
 }
-
-#deffer{
-    filter: grayscale(100);
-}
