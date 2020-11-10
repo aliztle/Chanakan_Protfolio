@@ -1,23 +1,24 @@
 const data = {
-    "name" : "Jirayuk Sae-lim",
+    "name" : "Chanakan Noulpum",
     "work" : "University student",
     "aboutme" :{
-        "FullName" : "Jirayuk Sae-lim",
-        "Age" : "20",
-        "B-date" : "5/5/2000",
-        "Phone" : "0614711894",
-        "Email" : "614259004@webmail.npru.ac.th",
+        "FullName" : "Chanakan Noulpum",
+        "Age" : "21",
+        "B-date" : "11/07/1999",
+        "Phone" : "0916144362",
+        "Email" : "614259008@webmail.npru.ac.th",
         "Address" : "Nakhon Pathom Rajaphat University 85 Malaiman Road",
         "Address2" : ", Muang District,Nakhon Pathom 73000 Thailand"
     },
     "welcome" : "This website is my portfolio. ",
     "welcome2" :"Made for education in academic web services Thank you for watching.",
-    "school" : "Annalai School",
+    "school2" : "Saithommajan School",
+    "school1" : "Phothawattanasanee School",
     "university" : "Nakhon Pathom Rajaphat University",
     "workexperience" : "I don't have workexperience.Sorry man",
-    "css" : "45%",
-    "php" : "30%",
+    "css" : "30%",
+    "php" : "55%",
     "html" : "50%",
-    "js" : "10%"
+    "js" : "20%"
 };
 module.exports = data;

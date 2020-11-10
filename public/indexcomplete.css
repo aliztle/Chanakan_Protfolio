@@ -1,107 +1,57 @@
-*{
+body{
     margin: 0;
     padding: 0;
+    display: flex;
+    background-color: #fcf1f1;
+}
+.logo h1{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #6d2a5c;
+    cursor: pointer;
 }
 
 header{
     display: flex;
-    margin-top: 2%;
-}
-
-header img{
-    width: 150px;
     margin-left: 10%;
 }
 
-header .navbar-icon{
-    margin-top: 1%;
-    margin-left: 50%;
-    display: flex;
-}
-
-header .navbar-icon a{
-    margin-left: 10%;
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-}
-
-body{
-    background-color: rgb(32, 32, 32);
-}
-
-/*index page*/
-.box-home {
-    display: flex;
-    margin-left: 15%;
-}
-
-.box-home img{
-    width: 580px;
-    margin-top: 5%;
-}
-
-.box-home .text-home{
-    color: white;
-    margin-top: 18%;
-    margin-left: 5%;
-}
-
-.box-home .text-home .name-home{
-    font-size: 50px;
-}
-
-.box-home .text-home .welcome-text{
-    color: rgb(224, 224, 224);
-}
-
-.box-home .text-home .seemore{
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border: 1px solid white;
-    width: 250px;
-    transition: .3s;
-}
-
-.box-home .text-home .seemore:hover{
-    background-color: white;
-    color:  rgb(32, 32, 32);
-}
-/*education page*/
-.education{
-    display: flex;
-    margin-left: 10%;
-    margin-top: 14%;
-}
-
-.education .info-edu{
+img{
     width: 300px;
-    background: white;
-    border-radius: 7px;
-    margin-left: 5%;
-    text-align: center;
-    padding: 20px;
-    box-shadow:5px 10px rgba(8, 8, 8, 0.411);
+    height: 300px;
+    margin-left: -25%;
+    margin-top: 13%;
+    box-shadow: 0 0 20px #1f1f1f7c;
 }
 
-.education .info-edu .fa-school,
-.education .info-edu .fa-graduation-cap,
-.education .info-edu .fa-building{
-    font-size: 50px;
-    transition: color .4s;
+main{
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
-.education .info-edu .fa-school:hover{
-    color: rgb(236, 86, 86);
+.education{
+    color: #6d2a5c;
 }
 
-.education .info-edu .fa-graduation-cap:hover{
-    color: rgb(240, 230, 89);
+.text-home{
+    color: #6d2a5c;
 }
 
-.education .info-edu .fa-building:hover{
-    color: rgb(99, 89, 240);
+.navbar-icon{
+    font-size: 30px;
+    margin-left: -30%;
+    margin-top: 30%;
+}
+
+.navbar-icon i{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #6d2a5c;
+}
+
+.navbar-icon i:hover{
+    color: #a8428f;
 }
 
 .u-center{
@@ -125,7 +75,7 @@ body{
 }
 
 .skill_type{
-    color: white;
+    color: #6d2a5c;
     font-weight: 300;
     font-size: .8em;
     letter-spacing: .145em;
@@ -140,7 +90,7 @@ body{
 
 .skill_outer-bar{
     margin-top: 1em;
-    background: #333;
+    background: #a8428f;
 }
 
 .skill_inner-bar{
@@ -151,22 +101,22 @@ body{
 
 .skill_inner-bar--100{
     width: 90%;
-    background: #eee;
+    background: #6d2a5c;
 }
 
 .skill_inner-bar--90{
     width: 50%;
-    background: #eee;
+    background: #6d2a5c;
 }
 
 .skill_inner-bar--80{
     width: 80%;
-    background: #eee;
+    background: #6d2a5c;
 }
 
 .skill_inner-bar--70{
     width: 30%;
-    background: #eee;
+    background: #6d2a5c;
 }
 
 @keyframes fillBar{
